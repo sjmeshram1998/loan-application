@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Loan Application Form</title>
+      <link rel="stylesheet" href="style/style.css">
+   </head>
+   <body class="bgimg">
+      <div class="">
+         <br><br>
+         <table align="center" >
+            <form action="">
+               <td colspan="2">
+                  <center>
+                     <h1>Apply for  Home Loan</h1>
+                  </center>
+               </td>
+               </tr>
+               <tr>
+                  <td><label>Full Name <span class="starColor">*</span></label></td>
+                  <td><input class="ipclass" type="text" name="name" id="name" required placeholder="first name">
+                     <input  class="ipclass"    type="text" name="name" id="name" required placeholder="lastname">
+                  </td>
+               </tr>
+               <tr>
+                  <td><label>E-mail <span class="starColor">*</span></label></td>
+                  <td><input class="ipclass" type="email" name="email" id="email" required placeholder="e.g. abc@gmail.com"></td>
+               </tr>
+               <tr>
+                  <td><label>Phone Number <span class="starColor">*</span></label></td>
+                  <td><input class="ipclass" type="tel" name="phone" id="phone" required minlength="10" maxlength="10"></td>
+               </tr>
+               <tr>
+                  <td><label>Address <span class="starColor">*</span></label></td>
+                  <td><textarea  name="address" id="address" rows="6" cols="55" required></textarea></td>
+               </tr>
+             
+               <tr>
+                  <td><label>Do you own or  <br> rent your home? <span class="starColor">* </span></label></td>
+                  
+                  <td> 
+                     <label for=""><input type="radio" name="r1" value="Own" required>Own</label>
+                       <label for=""><input type="radio" name="r1" value="Rent">Rent</label>
+                  </td>
+               </tr>
+               <tr>
+                  <td><label>Do you need to  <br> sell your home before <br> buying a new one?<span
+                     class="starColor">*</span></label></td>
+                  <td><label for=""><input type="radio" name="r2" id="r2" value="Yes" required>Yes</label>
+                     <label for=""> <input type="radio" name="r2" id="r2" value="No">No
+                     </label>
+                  </td>
+               </tr>
+               <tr>
+                  <td><label>Are you pre-qualified <br> for a loan?<span class="starColor">*</span></label></td>
+                  <td> <label for="">
+                     <input type="radio" name="r3" id="r3" value="Yes" required>Yes
+                     </label>
+                     <label for=""> <input type="radio" name="r3" id="r3" value="No">No
+                     </label>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td><label for="">Type of purchase <span class="starColor">*</span></label></td>
+                  <td><label for=""><select name="s1" id="s1" style="padding: 10px;">
+                     <option value="hidden">Please Select</option>
+                     <option value="Primary Residenece">Primary Residenece</option>
+                     <option value="Secondary Residenece">Secondary Residenece</option>
+                     <option value="Investment">Investment</option>
+                     <option value="Not Sure">Not Sure</option>
+                  </select></label></td>
+               </tr>
+               <tr>
+                  <td><label>Are you represented <br> by a Realtor?<span class="starColor">*</span></label></td>
+                  <td> <label for="">
+                     <input type="radio" name="r4" id="r4" value="Yes" required>Yes
+                     </label>
+                     <label for=""> <input type="radio" name="r4" id="r4" value="No">No
+                     </label>
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="2"><label>If Yes, please provide the name & company of your Realtor:</label></td>
+               </tr>
+               <tr>
+                  <td colspan="2"><input class="ipclass" type="text" name="" td>
+                   
+               </tr>
+               <tr>
+                  <td colspan="2"><label>Comments or questions</label></td>
+               </tr>
+               <tr>
+                  <td colspan="2"><textarea  name="address" id="address" rows="6" cols="80" required></textarea></td>
+                   
+               </tr>
+               
+              
+               <td><br><button type="submit">SUBMIT</button></td>
+               </tr>
+            </form>
+         </table>
+      </div>
+   </body>
+</html>
